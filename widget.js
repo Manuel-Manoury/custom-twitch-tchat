@@ -63,7 +63,7 @@ window.addEventListener('onEventReceived', function (obj) {
                             }],
                             msgId: "43285909-412c-4eee-b80d-89f72ba53142"
                         },
-                        renderedText: 'Howdy! My name is Bill and I am here to serve <img src="https://static-cdn.jtvnw.net/emoticons/v1/25/1.0" srcset="https://static-cdn.jtvnw.net/emoticons/v1/25/1.0 1x, https://static-cdn.jtvnw.net/emoticons/v1/25/1.0 2x, https://static-cdn.jtvnw.net/emoticons/v1/25/3.0 4x" title="Kappa" class="emote">'
+                        renderedText: 'Howdy! My name is Bill and I am here to serve <img src="https://static-cdn.jtvnw.net/emoticons/v1/25/1.0" srcset="https://static-cdn.jtvnw.net/emoticons/v1/25/1.0 1x, https://static-cdn.jtvnw.net/emoticons/v1/25/1.0 2x, https://static-cdn.jtvnw.net/emoticons/v1/25/3.0 4x" title="Kappa" class="emote">Howdy! My name is Bill and I am here to serve <img src="https://static-cdn.jtvnw.net/emoticons/v1/25/1.0" srcset="https://static-cdn.jtvnw.net/emoticons/v1/25/1.0 1x, https://static-cdn.jtvnw.net/emoticons/v1/25/1.0 2x, https://static-cdn.jtvnw.net/emoticons/v1/25/3.0 4x" title="Kappa" class="emote">Howdy! My name is Bill and I am here to serve <img src="https://static-cdn.jtvnw.net/emoticons/v1/25/1.0" srcset="https://static-cdn.jtvnw.net/emoticons/v1/25/1.0 1x, https://static-cdn.jtvnw.net/emoticons/v1/25/1.0 2x, https://static-cdn.jtvnw.net/emoticons/v1/25/3.0 4x" title="Kappa" class="emote">Howdy! My name is Bill and I am here to serve <img src="https://static-cdn.jtvnw.net/emoticons/v1/25/1.0" srcset="https://static-cdn.jtvnw.net/emoticons/v1/25/1.0 1x, https://static-cdn.jtvnw.net/emoticons/v1/25/1.0 2x, https://static-cdn.jtvnw.net/emoticons/v1/25/3.0 4x" title="Kappa" class="emote">Howdy! My name is Bill and I am here to serve <img src="https://static-cdn.jtvnw.net/emoticons/v1/25/1.0" srcset="https://static-cdn.jtvnw.net/emoticons/v1/25/1.0 1x, https://static-cdn.jtvnw.net/emoticons/v1/25/1.0 2x, https://static-cdn.jtvnw.net/emoticons/v1/25/3.0 4x" title="Kappa" class="emote">Howdy! My name is Bill and I am here to serve <img src="https://static-cdn.jtvnw.net/emoticons/v1/25/1.0" srcset="https://static-cdn.jtvnw.net/emoticons/v1/25/1.0 1x, https://static-cdn.jtvnw.net/emoticons/v1/25/1.0 2x, https://static-cdn.jtvnw.net/emoticons/v1/25/3.0 4x" title="Kappa" class="emote">'
                     }
                 }
             });
@@ -99,16 +99,22 @@ function addMessage(data, message) {
             class="message" 
             style="--color:${msgColor}"
         >
-            <div class="meta">
-            <div class="badges">${badges}</div>
-            <div class="name">${data.displayName}</div>
+            <div class="name-container">
+                <img src="https://raw.githubusercontent.com/Manuel-Manoury/custom-twitch-tchat/main/assets/vip_scroll.svg" class="scroll" />
+                <div class="meta">
+                    <div class="badges">${badges}</div>
+                    <div class="name">${data.displayName}</div>
+                </div>
+                <img src="https://raw.githubusercontent.com/Manuel-Manoury/custom-twitch-tchat/main/assets/vip_scroll.svg" class="scroll" />
             </div>
             <div class="content">
                 ${message}
             </div>
+            <img src="https://raw.githubusercontent.com/Manuel-Manoury/custom-twitch-tchat/main/assets/vip_message_box.svg" class="message-box" />
         </div>`
     )
 
+    
     const messages = document.querySelectorAll(".message");
     const messageCount = messages.length;
 
