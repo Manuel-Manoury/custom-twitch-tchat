@@ -1,0 +1,28 @@
+{
+  "name": "custom-twitch-tchat",
+  "version": "1.0.0",
+  "description": "Use `https://id.twitch.tv/oauth2/authorize?response_type=token&client_id=m9g2fk3pxkj5c39ldkkpp1ddie6i7h&redirect_uri=https://localhost&scope=channel%3Aread%3Asubscriptions` to get user access token to load subscriptions",
+  "main": "widget.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manuel-Manoury/custom-twitch-tchat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manuel-Manoury/custom-twitch-tchat/issues"
+  },
+  "homepage": "https://github.com/Manuel-Manoury/custom-twitch-tchat#readme",
+  "devDependencies": {
+    "eslint": "^8.31.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.6.0",
+    "prettier": "^2.8.1"
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "testMessage": {
+    "group": "Tests",
+    "label": "Send a test message",
+    "type": "button",
+    "value": "Test message"
+  },
+  // "testTipEvent": {
+  //   "type": "button",
+  //   "label": "Test Tip",
+  //   "value": "Test Tip",
+  //   "group": "Tests"
+  // },
+  // "testNewSubEvent": {
+  //   "type": "button",
+  //   "label": "Test New Subscriber",
+  //   "value": "Test New Subscriber",
+  //   "group": "Tests"
+  // },
+  // "testResubEvent": {
+  //   "type": "button",
+  //   "label": "Test Resubscriber",
+  //   "value": "Test Resubscriber",
+  //   "group": "Tests"
+  // },
+  // "testGiftSubEvent": {
+  //   "type": "button",
+  //   "label": "Test Gift Sub Community",
+  //   "value": "Test Gift Sub Community",
+  //   "group": "Tests"
+  // },
+  // "testGiftSubTargetEvent": {
+  //   "type": "button",
+  //   "label": "Test Gift Sub Target",
+  //   "value": "Test Gift Sub Target",
+  //   "group": "Tests"
+  // },
+  // "testCheerEvent": {
+  //   "type": "button",
+  //   "label": "Test Cheer Bits",
+  //   "value": "Test Cheer Bits",
+  //   "group": "Tests"
+  // },
+
+  "messageAlign": {
+    "group": "Message Position",
+    "label": "Alignement des messages",
+    "type": "dropdown",
+    "value": "flex-end",
+    "options": {
+      "flex-end": "Droite",
+      "flex-start": "Gauche",
+      "center": "Centre"
+    }
+  },
+  "useLeftRight": {
+    "group": "Message Position",
+    "type": "checkbox",
+    "label": "Alternate message position",
+    "value": false
+  },
+  "positionSelf": {
+    "label": "Self messages position",
+    "type": "dropdown",
+    "value": "inherit",
+    "options": {
+      "inherit": "Auto",
+      "flex-end": "Droite",
+      "flex-start": "Gauche",
+      "center": "Centre"
+    },
+    "group": "Message Position"
+  },
+  "positionBroadcaster": {
+    "label": "Broadcaster's messages position",
+    "type": "dropdown",
+    "value": "inherit",
+    "options": {
+      "inherit": "Auto",
+      "flex-end": "Droite",
+      "flex-start": "Gauche",
+      "center": "Centre"
+    },
+    "group": "Message Position"
+  },
+  "positionMod": {
+    "label": "Mod's messages position",
+    "type": "dropdown",
+    "value": "inherit",
+    "options": {
+      "inherit": "Auto",
+      "flex-end": "Droite",
+      "flex-start": "Gauche",
+      "center": "Centre"
+    },
+    "group": "Message Position"
+  },
+  "positionVip": {
+    "label": "VIP's messages position",
+    "type": "dropdown",
+    "value": "inherit",
+    "options": {
+      "inherit": "Auto",
+      "flex-end": "Droite",
+      "flex-start": "Gauche",
+      "center": "Centre"
+    },
+    "group": "Message Position"
+  },
+  "positionViewer": {
+    "label": "Viewer's messages position",
+    "type": "dropdown",
+    "value": "inherit",
+    "options": {
+      "inherit": "Auto",
+      "flex-end": "Droite",
+      "flex-start": "Gauche",
+      "center": "Centre"
+    },
+    "group": "Message Position"
+  },
+
+  "displayTwitchBadges": {
+    "group": "Message Style",
+    "label": "Display Twitch Badges",
+    "type": "checkbox",
+    "value": true
+  },
+  "hideCommands": {
+    "group": "Message Style",
+    "label": "Hide ! commands",
+    "type": "checkbox",
+    "value": true
+  },
+  "emoteQuality": {
+    "type": "dropdown",
+    "label": "Emote Quality",
+    "value": 1,
+    "options": {
+      "1": "Normal",
+      "2": "Good",
+      "4": "Best"
+    },
+    "group": "Message Style"
+  },
+  "chatVerticalPadding": {
+    "type": "number",
+    "label": "Chat vertical spacing",
+    "value": 0,
+    "steps": 1,
+    "group": "Message Style"
+  },
+  "chatHorizontalPadding": {
+    "type": "number",
+    "label": "Chat horizontal spacing",
+    "value": 0,
+    "steps": 1,
+    "group": "Message Style"
+  },
+  "displayMessageBoxAnimation": {
+    "group": "Message Style",
+    "label": "Display Message box animation",
+    "type": "checkbox",
+    "value": true
+  },
+  "messageBoxAnimationCycles": {
+    "group": "Message Style",
+    "label": "Message box animation cycle count",
+    "type": "number",
+    "value": 8,
+    "steps": 1
+  },
+
+  "botNames": {
+    "label": "Bot pseudo (separatés par une virgule)",
+    "type": "text",
+    "value": "StreamElements",
+    "group": "Users"
+  },
+  "hiddenUsers": {
+    "label": "Utilisateurs masqués (pseudos separatés par une virgule)",
+    "type": "text",
+    "value": "",
+    "group": "Users"
+  },
+
+  "userAccessToken": {
+    "group": "Settings",
+    "label": "User access token",
+    "value": "",
+    "type": "text"
+  },
+
+  "widgetName": {
+    "type": "hidden",
+    "value": "Sheiyah Custom Chatbox",
+    "group": ""
+  },
+  "widgetAuthor": {
+    "type": "hidden",
+    "value": "Manuel MANOURY",
+    "group": ""
+  },
+  "widgetVersion": {
+    "type": "hidden",
+    "value": "1.0",
+    "group": ""
+  },
+  "widgetInspirationAuthor": {
+    "type": "hidden",
+    "value": "Chroneco",
+    "group": ""
+  },
+  "widgetInspirationName": {
+    "type": "hidden",
+    "value": "POP Chatbox",
+    "group": ""
+  },
+  "widgetBaseAuthor": {
+    "type": "hidden",
+    "value": "lx",
+    "group": ""
+  }
+}

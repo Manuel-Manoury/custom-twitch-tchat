@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "extends": ["eslint:recommended", "prettier", "airbnb"],
+  "rules": {
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "never",
+        "exports": "never",
+        "functions": "never"
+      }
+    ],
+    "linebreak-style": ["warn", "windows"],
+    "operator-linebreak": ["warn", "after"],
+    "quotes": ["warn", "double"]
+  },
+  "ignorePatterns": ["example/*"],
+  "env": {
+    "browser": true
+  }
+}

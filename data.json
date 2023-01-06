@@ -1,0 +1,31 @@
+{
+  "testMessage": "Test message",
+
+  "messageAlign": "flex-end",
+  "useLeftRight": false,
+  "positionSelf": "inherit",
+  "positionBroadcaster": "inherit",
+  "positionMod": "inherit",
+  "positionVip": "inherit",
+  "positionViewer": "inherit",
+
+  "displayTwitchBadges": true,
+  "hideCommands": true,
+  "emoteQuality": 4,
+  "chatHorizontalPadding": 0,
+  "chatVerticalPadding": 0,
+  "displayMessageBoxAnimation": true,
+  "messageBoxAnimationCycles": 8,
+
+  "botNames": "StreamElements",
+  "hiddenUsers": "",
+
+  "userAccessToken": "",
+
+  "widgetName": "Sheiyah Custom Chatbox",
+  "widgetAuthor": "Manuel MANOURY<github.com/Manuel-Manoury/>",
+  "widgetVersion": "1.0",
+  "widgetInspirationAuthor": "Chroneco",
+  "widgetInspirationName": "POP Chatbox",
+  "widgetBaseAuthor": "lx"
+}
